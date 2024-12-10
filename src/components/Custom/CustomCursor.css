@@ -1,0 +1,11 @@
+/* CustomCursor.css */
+.custom-cursor {
+    position: absolute;
+    width: 20px;  /* Change the size as needed */
+    height: 20px; /* Change the size as needed */
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7); /* Cursor color */
+    pointer-events: none; /* Prevent mouse events on the cursor */
+    transition: transform 0.1s ease; /* Smooth transition */
+  }
+  
